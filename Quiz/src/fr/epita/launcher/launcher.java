@@ -105,11 +105,11 @@ public class launcher {
     private static int TeacherMenu() {
 
         Scanner selectTeacher = new Scanner(System.in);
-        System.out.println("1.Create Quiz");
-        System.out.println("2.Create Question");
-        System.out.println("3.Update Question");
-        System.out.println("4.Delete Question");
-        System.out.println("5.Quit Application");
+        System.out.println("1.1 for Quiz Creation");
+        System.out.println("2.2 for Question Creation");
+        System.out.println("3.3 to update Question");
+        System.out.println("4.4 to Delete Question");
+        System.out.println("5.5 to Quit Application");
         System.out.println("Enter your choice in number from 1 to 5 (1, 2, 3, 4, 5)");
         int select;
         select = selectTeacher.nextInt();
